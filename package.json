@@ -1,0 +1,27 @@
+{
+  "name": "piggypassercertificategenpdf",
+  "version": "1.0.0",
+  "description": "Certificate PDF generator for the winner of PiggyPasser",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neherdata/piggypassercertificategenpdf.git"
+  },
+  "author": "Tyler M. Neher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neherdata/piggypassercertificategenpdf/issues"
+  },
+  "homepage": "https://github.com/neherdata/piggypassercertificategenpdf#readme",
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "@pdfme/common": "^2.0.2",
+    "@pdfme/generator": "^2.0.2",
+    "@pdfme/ui": "^2.0.2",
+    "pdf-lib": "^1.17.1"
+  }
+}
